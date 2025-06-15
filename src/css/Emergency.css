@@ -1,0 +1,41 @@
+.emergency-page {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.emergency-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.emergency-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.emergency-card {
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.emergency-card.blue { background-color: #007BFF; }
+.emergency-card.red { background-color: #DC3545; }
+.emergency-card.green { background-color: #28A745; }
+.emergency-card.purple { background-color: #6F42C1; }
+
+.emergency-map {
+  flex: 2;
+  min-width: 300px;
+}

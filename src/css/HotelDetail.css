@@ -1,0 +1,74 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.card-body p,
+.card-body li {
+  font-size: 15px;
+  color: #555;
+}
+
+h2 {
+  font-weight: 700;
+  color: #1e2a38;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.list-group-item {
+  font-size: 14px;
+  background-color: #f9f9f9;
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+select {
+  border-radius: 8px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.3);
+}
+
+button.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+}

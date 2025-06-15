@@ -1,12 +1,7 @@
-# React + Vite
+I have developed the first working version (V1) of the TravelMate UK project the frontend. I would be very thankful for your feedback - especially regarding any specialty or improvement you think I should add or change to this level. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Also, I would like to ask you about some technical details:
 
-Currently, two official plugins are available:
+ At present, I am loading restaurant and hotel data from local JSON files in data folder and I am using map() to display them. Do you think I should now move this part to use an API that receives data from an actual database? Given the fact that the project is based on a MERN stack structure, I think it may be better to use mongodb rather than postgresql in this case, do you agree? 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I was also wondering how to make the site more useful and realistic? The booking facility at present is very basic and is mostly for testing. Do you think it makes more sense to concentrate more on the site as a travel guide - some useful and good structured information without provision of real bookings? I want the project to be practical, not just "play with a database", so your advice here will be very useful.
